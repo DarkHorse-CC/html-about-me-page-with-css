@@ -10,7 +10,7 @@ Students can style a single webpage demonstrating their understanding of the fol
   * Selectors
   * Properties
   * Values
-* Some common properties
+* Common properties
 * CSS Cascading
 * Adding CSS to your HTML
 * Using a browser inspector to view the source code of a webpage
