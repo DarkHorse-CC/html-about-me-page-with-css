@@ -1,82 +1,46 @@
-# 📝 Week 3 Lab - HTML About Me Page
+# 📝 Week 4 Lab - HTML About Me Page with CSS
 
-A template repostiory for practicing HTML by creating an informational page about yourself using standard HTML boilerplate and tags.
+A template repostiory for practicing CSS by using the `styles.css` file to add CSS to the HTML elements on the `index.html` page.
 
 ## Goal
 
-Students can build a single webpage demonstrating their understanding of the following HTML tags:
+Students can style a single webpage demonstrating their understanding of the following CSS concepts
 
-* `<html>`
-* `<meta>`
-* `<head>`
-* `<title>`
-* `<body>`
-* `<h1>`
-* `<p>`
-* `<strong>`
-* `<em>`
-* `<ul>`
-* `<ol>`
-* `<li>`
-* `<a>`
-* `<img>`
-
-We'll also look for the following:
-
-* a `lang` attribute is added to their `<html>` declaration
-* a `charset` attribute is added to their `<meta>` declaration
-* all `<img>` tags have an `alt` attribute
+* Basic Syntax:
+  * Selectors
+  * Properties
+  * Values
+* Some common properties
+* CSS Cascading
+* Adding CSS to your HTML
+* Using a browser inspector to view the source code of a webpage
+* The Box Model
+* Block VS Inline elements
 
 ## Instructions
 
-### Create an HTML page about yourself
+### Style an HTML page 
 
 The first step will be to fork this repository to your own account and then open it up in a Codespace.
 
-Create an HTML webpage about yourself (or anything, really) that uses a proper HTML boilerplate and uses the following tags.
+Use the `style.css` file to practice styling the HTML on the `index.html` page.
 
-* Use the correct [HTML boilerplate](https://www.theodinproject.com/lessons/foundations-html-boilerplate)
-  * Doctype
-    * HTML5 doctype
-  * `<html>` element
-    * `lang` attribute
-  *  `<head>` element
-    *  `charset`
-    *  `<title>`
-  * `<body>` element
-* Paragraphs (`<p>`)
-* Headings (`<h1>`)
-* Strong elements (`<strong>`)
-* Ordered and Unordered lists (`<ul>` and `<ol>`)
-* An image (`<img>`)
+* Try the following properties:
+  * `color`
+  * `background-color`
+  * `font-family`
+  * `font-size`
+  * `font-weight`
+  * `text-align`
+  * `height` and `width` for an `img` tag
+  * `margin`, `padding`, and the `border` properties
 
-For a reference listing the different HTML tags, check out: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-
-### Add your page to the class webpage
-
-Bonus material, if you have time!
-
-* Clone or open up a Codespace to the class webpage
-* Create a working branch
-* Create a new file in the `bios` directory with the name of your GitHub username
-* Alter the `index.html` page to add a link to the bio page you just created
-* Push the branch to the repository
-* Create a pull request and have the pull request reviewed
-* Merge pull request to `main`
-
-## Assignment Grading
-
-This assignment uses automated tests to check for the presence of the required HTML tags. You can run the tests by running:
-
-```bash
-rake test
-```
+For a reference listing the different CSS properties, check out the MDN Docs: https://developer.mozilla.org/en-US/docs/Web/CSS
 
 ## Viewing Your Webpage
 
 We've installed a tiny webserver in the development container so you can view your webpage. It should start up when you open the project in its container, or in a Codespace
 
-## HTML Introduction Materials
+## CSS Introduction Materials
 
-* https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css
-* https://www.youtube.com/watch?v=ItZN6o0ylao&list=PLfloRV9R6_kRQihyrQV9eVYt32KNGqXRo
+* https://www.theodinproject.com/paths/foundations/courses/foundations#css-foundations
