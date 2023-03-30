@@ -1,3 +1,24 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+*{color:orange;}
+
+div { color:blue;}
+
+.basic, .alert-text {color:red; 
+    font-family:georgia; 
+    font-size: 48px; 
+    text-align: center;}
+
+
+#title {color:rgb(255, 255, 255);}
+#title {background-color:rgb(14, 120, 128);}
+
+.alert-text, .basic {color:white; background-color:black;}
+
+#title {background-color:green;
+}
+body .basic {background-color:blue;}
+
+img {height:180px; width:auto;}
